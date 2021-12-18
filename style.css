@@ -24,70 +24,76 @@ body{
     flex-direction: row;
     justify-content:space-evenly;
     align-items: center;
-    padding: 0px 0px;  
-    margin: 0px;  
+    padding: 0px 50px;    
 }
 .box1{   
-    background-color:#ffc600;
+    background-color: #ffc600;
     text-align: center;
     font-weight:bold;
     font-size: 20px;
-    width: 90%;
-    height:fit-content;
+    width: 18%;
+    height:40px;
     padding-bottom:20px;
-    padding-top: 0px;
-    margin-top: 10px;
+    padding-top: 10px;
     
 }
 .orderbar{
     width:100%;
     height:150px;
     display: flex;
-    flex-direction:column;
+    flex-direction: row;
     justify-content:space-evenly;
-    padding: 0px 0px;    
+    align-items: center;
+    padding: 200px 50px;    
 }
 .firstorderbaar{
-    width:100%;
-    height:fit-content;
+    width:70%;
+    height:400px;
+    background-image:url(https://jolly-kalam-23776e.netlify.app/restaurantwebsite/images/taco.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-left: 0px;
+    margin-left: 10px;
 }
 .headingbaar{
     width:100%;
-    height:fit-content;
+    height:150px;
     display: flex;
     flex-direction:column;
     justify-content:center;
-    align-items:center;
-    padding: 0px 0px;   
+    align-items:flex-start;
+    padding: 200px 100px;   
 }
 .divBar{
     background-color:#ffc600;
-    width:100%;
-    height: fit-content;
-    height:fit-content;
-    padding:0px 0px;
+    width:200px;
+    height:200px;
+    padding:15px 10px;
     font-size:20px;
     font-weight: bold;    
 
 }
 .divBar2{
     background-color:#ffc600;
-    width:100%;
-    height:fit-content;
-    margin-top:0px;
+    width:150px;
+    height:100px;
+    margin-top:20px;
     font-size: 15px;
     font-weight:bold;
     text-align: center;   
 }
 .secondorderbar{
-    width:100%;
-    height:fit-content;
-    margin-left: 0px;
-    margin-right: 0px;    
+    width:25%;
+    height:40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    align-content: center;
+    
 }
 .priceBar{
     background-color:#ffc600;
@@ -129,13 +135,13 @@ body{
     background-color:white;  
 }
 .fontIcons{
-    padding-bottom: 60px;
-    padding-top: 20px;
+    padding-bottom: 70px;
+    padding-top: 30px;
     font-size: large;
 }
 .aboutUs{
     width:90%;
-    height:fit-content;
+    height:400px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -143,19 +149,19 @@ body{
     flex-direction:row;
     justify-content:center;
     background-color: white;
-    margin: 20px 0px;
+    margin: 20px 75px;
 }
 .box3{
     width: 30%;
     height:300px;
-    background-image: url(https://jolly-kalam-23776e.netlify.app/restaurantwebsite/images/queso-taco.png);
     background-repeat: no-repeat;
     align-items: center;
     margin-top: 50px;
     margin-right: 100px;
     margin-left: 30px;
-
+    
 }
+
 .newfeatured{
     width: 60%;
     height:300px;
@@ -216,20 +222,18 @@ body{
     flex-direction:column;
     justify-content:space-between;
     align-items: center;
-    padding: 10px 20px; 
-    margin: 0px;   
+    padding: 0px 50px;    
 }
 .box1{   
+    background-color: #ffc600;
     text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font-weight:bold;
-    font-size: 10px;
+    font-size: 20px;
     width: 100%;
     height:fit-content;
-    padding-bottom:10px;
+    padding-bottom:20px;
     padding-top: 10px;
+    margin-top: 10px;
     
 }
 .orderbar{
@@ -237,12 +241,13 @@ body{
     height:fit-content;
     display: flex;
     flex-direction:column;
-    justify-content:space-evenly;
+    justify-content:space-between;
     align-items: center;
-    padding-top: 10px;   
+    padding: 0px 50px;
+    margin-top: 20px;    
 }
 .firstorderbaar{
-    width:90%;
+    width:100%;
     height:fit-content;
     background-image:url(https://jolly-kalam-23776e.netlify.app/restaurantwebsite/images/taco.jpg);
     background-position: center;
@@ -257,7 +262,7 @@ body{
     flex-direction:column;
     justify-content:center;
     align-items:flex-start;
-    padding: 200px 20px;   
+    padding: 200px 30px;   
 }
 .divBar{
     background-color:#ffc600;
@@ -269,6 +274,7 @@ body{
 
 }
 .divBar2{
+    background-color:#ffc600;
     width:150px;
     height:100px;
     margin-top:20px;
@@ -277,29 +283,23 @@ body{
     text-align: center;   
 }
 .secondorderbar{
-    margin-top: 10px;
-    width:90%;
+    width:100%;
     height:fit-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-left: 0px;
-    margin-right: 0px;    
-}
-.priceBar{
-    background-color:#ffc600;
-    text-align: center;
-}
-.priceitems{
-    font-size: 60px;
-    padding-top: 50px;
-}
-.priceitems2{
-    font-size: 20px;
-    padding-bottom: 48px;
-    font-weight: bold;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    align-content: center;
+    margin-top: 20PX;
+    
 }
 .yourChoice{
     width:100%;
     height:fit-content;
-    margin:0px 0px;
+    margin:20px 0px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -311,16 +311,17 @@ body{
 
 }
 .box2{
-    width:90%;
+    width:78%;
+    margin-top: 20px;
     height:fit-content;
-    margin-top: 15px;
     text-align: center;
     padding-bottom:20px;
-    font-weight: 100;
+    background-color:white;  
+    font-size: 20;
 }
 .fontIcons{
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-top: 10px;
     font-size: large;
 }
 .aboutUs{
@@ -333,32 +334,24 @@ body{
     flex-direction:column;
     justify-content:center;
     background-color: white;
-    margin:20px 0px;
-    padding:10px;
+    margin: 20px 0px;
 }
 .box3{
     width: 100%;
     height:300px;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    background-image: url(https://jolly-kalam-23776e.netlify.app/restaurantwebsite/images/queso-taco.png);
+    background-image: url();
     background-repeat: no-repeat;
     align-items: center;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
-    margin-bottom: 0px;
+    margin-top: 10px;
 
 }
 .newfeatured{
     width: 100%;
     height:fit-content;
-    padding-top: 0px;
-    padding-bottom: 10px;
+    padding-top: 10px;
     padding-left: 10px;
-    padding-right: 0px;
-    margin-top: 0px;   
+    margin-top: 5px;
+
 }
 .FeaturedTaco{
     text-align: left;
@@ -375,6 +368,7 @@ body{
     font-size: 15px;
     padding:10px 20px;
     margin-top: 20px;
+    margin-bottom: 20px;
     background-color:#ffc600;
     border: 1px solid #ffc600;
 }
@@ -385,11 +379,12 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    flex-direction:row;
+    flex-direction:column;
+    align-items: center;
     justify-content:center;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     margin: 0px 0px;
-    padding: 5px 0px;
+    padding: 10px 0px;
     }
 .title{
     text-align: center;
@@ -399,15 +394,11 @@ body{
     font-weight: 900;
 }
 .picture1{
-    padding: 10px;
+    padding: 15px;
     font-size: 50px;
 }
 
 
 
 
-
 }
-
-
-
